@@ -5,6 +5,7 @@ This version happens to return an Atom document type since I needed that for Sof
 
 
 ## Sample API module to call mediator
+```
 <?xml version="1.0" encoding="UTF-8"?>
 <api context="/healthCheck/1" name="HealthCheck_v1" xmlns="http://ws.apache.org/ns/synapse">
    	
@@ -23,6 +24,7 @@ This version happens to return an Atom document type since I needed that for Sof
    <property name="Access-Control-Allow-Credential" value="true" scope="transport" type="STRING"/> 
    <respond/>
 </sequence>
+```
 
 ## Deployment
 Place these jars in $PATH_TO_ESB/wso2esb/repository/components/lib
@@ -32,3 +34,6 @@ Place these jars in $PATH_TO_ESB/wso2esb/repository/components/lib
   rome-utils-1.11.0.jar
   HealthCheckMediators-3.1.1.1.jar
  
+
+## License
+[![License](http://img.shields.io/:license-apache2-blue.svg?style=flat-square)](https://www.apache.org/licenses/LICENSE-2.0) 

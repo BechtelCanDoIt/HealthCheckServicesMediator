@@ -28,11 +28,13 @@ This version happens to return an Atom document type since I needed that for Sof
 
 ## Deployment
 Place these jars in $PATH_TO_ESB/wso2esb/repository/components/lib
+```
   slf4j-api-1.7.16.jar
   jdom2-2.0.6.jar
   rome-1.11.0.jar
   rome-utils-1.11.0.jar
   HealthCheckMediators-3.1.1.1.jar
+```  
  
 
 ## License
